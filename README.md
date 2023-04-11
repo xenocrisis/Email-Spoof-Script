@@ -18,6 +18,7 @@ Also, you can run it on Windows for example. In that case you should search and 
 
 ```bash
 sudo apt install sendemail git
+bew install sendemail git (MACOS)
 ```
 Clone the repository
 
