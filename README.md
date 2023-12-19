@@ -9,56 +9,32 @@ Original one line script and idea:
 
 ## Contributing
 
-This tool is kinda simple but contributions are always welcome I guess ⚙️
+This tool is kinda simple ⚙️
 
 ## Installation
 
-**Highly recommended use Ubuntu 🐧**
-Also, you can run it on Windows for example. In that case you should search and download the 'sendemail' PERL script manually.
+<h2>Windows</h2>
+Install strawberry perl
+https://strawberryperl.com/
+<br>
+Install python
+https://www.python.org/
+<br>
 
-```bash
-sudo apt install sendemail git
-bew install sendemail git (MACOS)
-```
 Clone the repository
 
-```bash
-git clone https://github.com/HotAndLonely/zspoofer-graphical.git
 ```
-Install python PyPi packets.
-No requirements for you 😈
-```bash
-pip install configparser
-```
-```bash
-pip install customtkinter
-```
-```bash
-pip install tk
-```
-Open your legs ❤️🔓
-```bash
-chmod +x main.py
-```
-Put it in.
-```bash
-python main.py
+git clone https://github.com/HotAndLonely/Email-Spoof-Script
 ```
 
+## Setup
 
-## Usage/Tutorial
+1. Enter https://www.brevo.com/ and register, you can lie with your data. Don't use offensive terms!
 
-1. Go to https://es.sendinblue.com/ and register, only EMAIL required dont worry.
+2. When you complete register. Find **SMTP API**.
 
-2. Go to **SMTP API** and copy the token and your email.
+3. Edit config.conf with your api date and settings.
 
-3. Start zspoofer, go to settings, configure and save.
+4. Customize email_message.html is the message body.
 
-## SCREENSHOOTS
-
-<img width="385" alt="r" src="https://user-images.githubusercontent.com/63518404/231266523-cdab0341-ad89-42be-bfca-2f31d7f0f762.png">
-
-<img width="756" alt="Captura de pantalla 2023-04-11 210313" src="https://user-images.githubusercontent.com/63518404/231266777-5c8730fd-e3be-4b71-848d-925c3dfd7ed6.png">
-
-<img width="704" alt="Captura de pantalla 2023-04-11 210100" src="https://user-images.githubusercontent.com/63518404/231266838-cb49853d-07ec-40df-9dbe-dcf98ae2cb84.png">
-
+5. Run the python script.
